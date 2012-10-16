@@ -17,5 +17,6 @@ Data Types
    dict.rst
    set.rst
    string.rst
+   lab-formatting.rst
 
 

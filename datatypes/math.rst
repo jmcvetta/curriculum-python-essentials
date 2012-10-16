@@ -2,19 +2,24 @@
 Math
 ****
 
+Modulus::
 
-Basic math functions
+   >>> 8.0 / 3.0
+   2.6666666666666665
+   >>> 8.0 % 3.0
+   2.0
+   >>> 8 % 3
+   2
+   >>> 9.0 / 3.0
+   3.0
+   >>> 9 % 3
+   0
 
-::
+
+Basic math functions::
 
    >>> round(42.01)
    42
-
-
-Likely will cause a precision problem
-
-::
-
    >>> round(42.01, 2)
    42.009999999999998
    >>> abs(-42)
@@ -25,9 +30,7 @@ Likely will cause a precision problem
    256
 
 
-Basic math object
-
-::
+Many utility functions are available from the ``math`` library::
 
    >>> import math
    >>> math.trunc(42.0)

@@ -1,6 +1,6 @@
-*******
-Decimal
-*******
+*************
+Decimal Class
+*************
 
 Not a built in type, but this module is useful for people who need reliable
 precision with the floating points they use.
