@@ -27,7 +27,7 @@ The latest version of these notes is published at `Read the Docs`_. It is also
 available in PDF_ and ePub_ formats.
 
 
-.. _PDF: https://media.readthedocs.org/pdf/python-essentialslatest/python-essentials.pdf
+.. _PDF: https://media.readthedocs.org/pdf/python-essentials/latest/python-essentials.pdf
 .. _ePub: https://media.readthedocs.org/epub/python-essentials/latest/python-essentials.epub
 .. _Github: http://github.com/jmcvetta/python-essentials
 .. _`Read the Docs`: http://python-essentials.readthedocs.org/
