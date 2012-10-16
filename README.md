@@ -1,4 +1,3 @@
-python-essentials
-=================
+# Curriculum for "Python Essentials"
 
-Curriculum for "Python Essentials" course
+This is a work in progress; it is not yet ready for use.
