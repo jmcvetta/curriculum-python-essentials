@@ -18,13 +18,13 @@ def main():
     for i in range(8):
         if i % 2:
             # This is an even row.
-            even = dark
-            odd = light
+            first = dark
+            second = light
         else:
             # This is an odd row.
-            even = light
-            odd = dark
-        print "{0}{1}".format(odd, even) * 4
+            first = light
+            second = dark
+        print "{0}{1}".format(first, second) * 4
 
 
 if __name__ == '__main__':
