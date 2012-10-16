@@ -2,7 +2,6 @@
 Curriculum for *Python Essentials*
 **********************************
 
-Contents:
 
 .. toctree::
    :maxdepth: 2

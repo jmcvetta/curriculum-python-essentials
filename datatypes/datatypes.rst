@@ -2,8 +2,6 @@
 Data Types
 **********
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
    
