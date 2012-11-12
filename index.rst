@@ -8,7 +8,7 @@ Curriculum for *Python Essentials*
    
    about.rst
    help.rst
-   datatypes/datatypes.rst
+   datatypes/index.rst
 
 
 

@@ -2,14 +2,15 @@
 Data Types
 **********
 
+
 .. toctree::
    :maxdepth: 2
    
    int.rst
-   math.rst
    float.rst
-   decimal.rst
    complex.rst
+   math.rst
+   decimal.rst
    bool.rst
    none.rst
    list.rst
@@ -18,5 +19,5 @@ Data Types
    set.rst
    string.rst
    lab-formatting.rst
-
-
+   time.rst
+   files.rst
