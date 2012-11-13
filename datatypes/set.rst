@@ -52,3 +52,7 @@ Set Operators
    TypeError: unsupported operand type(s) for +: 'set' and 'set'
    
    
+.. todo::
+
+   Add another character to the set math examples, to better illustrate diff
+   between - and ^ operators.
