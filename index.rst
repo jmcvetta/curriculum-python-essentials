@@ -11,6 +11,7 @@ Curriculum for *Python Essentials*
    datatypes/index.rst
    syntax/index.rst
    classes.rst
+   dice.rst
 
 
 
