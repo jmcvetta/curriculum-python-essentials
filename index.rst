@@ -9,6 +9,8 @@ Curriculum for *Python Essentials*
    about.rst
    help.rst
    datatypes/index.rst
+   syntax/index.rst
+   classes.rst
 
 
 
