@@ -3,9 +3,7 @@
 
 from random import randint
 
-
 class Die(object):
-    '''
-    A single die with a definable number of sides
-    '''
+    '''A single die'''
     pass
+
