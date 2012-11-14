@@ -12,6 +12,7 @@ Curriculum for *Python Essentials*
    syntax/index.rst
    classes.rst
    dice.rst
+   work-in-progress.rst
 
 
 
