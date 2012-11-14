@@ -28,8 +28,11 @@ The main die class is found in ``die.py``:
    :lines: 4-
 
 
-We define several common subclasses for convenience in ``dice.py``:
 
-.. literalinclude:: labs/dice/dice.py
-   :linenos:
-   :lines: 4-
+.. if config:: instructor == True
+
+   We define several common subclasses for convenience in ``dice.py``:
+
+   .. literalinclude:: labs/dice/dice.py
+      :linenos:
+      :lines: 4-

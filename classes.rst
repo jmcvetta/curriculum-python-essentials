@@ -3,6 +3,11 @@ Classes
 *******
 
 
+.. todo::
+
+   Rewrite this section with better explanations, and using detailed examples.
+
+
 Classes are template structures in Python. They are special objects and types
 that allow for the creation of unique copies, or instances, of itself. The most
 basic type of class is a copy of an empty object.
