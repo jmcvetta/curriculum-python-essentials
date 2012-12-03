@@ -9,5 +9,6 @@ Syntax
    comments.rst
    operators.rst
    packages.rst
+   functions.rst
 
 
