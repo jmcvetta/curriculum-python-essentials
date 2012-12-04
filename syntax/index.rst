@@ -11,5 +11,6 @@ Syntax
    packages.rst
    functions.rst
    scope.rst
+   if-else.rst
 
 
