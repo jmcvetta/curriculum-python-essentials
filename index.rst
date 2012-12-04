@@ -10,6 +10,7 @@ Curriculum for *Python Essentials*
    help.rst
    datatypes/index.rst
    syntax/index.rst
+   echo.rst
    classes.rst
    dice.rst
    work-in-progress.rst

@@ -17,9 +17,6 @@ Write a program that:
 * Repeat until the user quits
 '''
 
-def speak(m):
-    print "Echo:", m
-
 def main():
     while True:
         try:
