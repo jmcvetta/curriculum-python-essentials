@@ -6,6 +6,7 @@ Curriculum for *Python Essentials*
 .. toctree::
    :maxdepth: 2
    
+   work-in-progress.rst
    about.rst
    help.rst
    datatypes/index.rst
@@ -13,7 +14,6 @@ Curriculum for *Python Essentials*
    echo.rst
    classes.rst
    dice.rst
-   work-in-progress.rst
 
 
 
