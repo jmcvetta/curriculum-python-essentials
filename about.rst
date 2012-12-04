@@ -27,12 +27,10 @@ The latest version of these notes is published at `Read the Docs`_. It is also
 available in PDF_ and ePub_ formats.
 
 
-.. _PDF: https://media.readthedocs.org/pdf/python-essentials/latest/python-essentials.pdf
-.. _ePub: https://media.readthedocs.org/epub/python-essentials/latest/python-essentials.epub
-.. _Github: http://github.com/jmcvetta/curriculum-python-essentials
-.. _`Read the Docs`: http://python-essentials.readthedocs.org/
-.. _`Silicon Bay Training`: http://sbtrain.com/
+Related Courses
+===============
 
+Students who have completed *Python Essentials* may wish to check out `Advanced Python`_.
 
 Copying
 =======
@@ -41,6 +39,12 @@ This curriculum was derived from class notes written by `Jeremy Osbourne`_ at
 Silicon Bay Training.
 
 
+.. _PDF: https://media.readthedocs.org/pdf/python-essentials/latest/python-essentials.pdf
+.. _ePub: https://media.readthedocs.org/epub/python-essentials/latest/python-essentials.epub
+.. _Github: http://github.com/jmcvetta/curriculum-python-essentials
+.. _`Read the Docs`: http://python-essentials.readthedocs.org/
+.. _`Silicon Bay Training`: http://sbtrain.com/
+.. _`Advanced Python`: http://advanced-python.readthedocs.org/
 .. _`Jeremy Osbourne`: mailto:jeremywosborne@gmail.com
 
 
