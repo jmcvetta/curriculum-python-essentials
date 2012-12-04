@@ -10,5 +10,6 @@ Syntax
    operators.rst
    packages.rst
    functions.rst
+   scope.rst
 
 
