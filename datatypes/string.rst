@@ -231,8 +231,10 @@ Formatting a floating point output:
 Referencing a value from a named attribute instead of a tuple. Can use a tuple
 or a map, not both::
 
-   >>> "%(dog)s %(num)d" % {"dog": "fido", "num": 42}
-   'fido 42'
+   >>> pets = {'dog': 'Fido', 'cat': 'Claude'}
+   >>> 'My dog is named %(dog)s, and my cat %(cat)s.' % pets
+   'My dog is named Fido, and my cat Claude.'
+   
 
 
 
