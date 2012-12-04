@@ -14,6 +14,7 @@ Curriculum for *Python Essentials*
    echo.rst
    classes.rst
    dice.rst
+   wordcount.rst
 
 
 
