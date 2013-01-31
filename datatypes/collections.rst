@@ -318,35 +318,35 @@ Set Operators
 
 ::
 
-   >>> a = set('xyzzy')
-   >>> b = set('xxy')
-   >>> a
-   set(['y', 'x', 'z'])
-   >>> b
-   set(['y', 'x'])
-   
-   >>> # letters in a but not in b
-   >>> a - b                              
-   set(['z'])
-   
-   >>> # letters in either a or b
-   >>> a | b                              
-   set(['y', 'x', 'z'])
-   
-   >>> # letters in both a and b
-   >>> a & b                              
-   set(['y', 'x'])
-   
-   >>> # letters in a or b but not both
-   >>> a ^ b                              
-   set(['z'])
-   
-   >>> # And a failed operation
-   >>> a + b
-   Traceback (most recent call last):
-     File "<stdin>", line 1, in <module>
-   TypeError: unsupported operand type(s) for +: 'set' and 'set'
-   
+	>>> a = set('xyzzyqtt')
+	>>> b = set('zzytrr')
+	>>> a
+	set(['y', 'x', 'z', 'q', 't'])
+	>>> b
+	set(['y', 'r', 'z', 't'])
+	>>> # letters in a but not in b
+	
+	>>> a - b
+	set(['q', 'x'])
+	>>> # letters in either a or b
+	
+	>>> a | b
+	set(['q', 'r', 't', 'y', 'x', 'z'])
+	>>> # letters in both a and b
+	
+	>>> a & b
+	set(['y', 'z', 't'])
+	>>> # letters in a or b but not both
+	
+	>>> a ^ b
+	set(['q', 'x', 'r'])
+	>>> # And a failed operation
+	
+	>>> a + b
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	TypeError: unsupported operand type(s) for +: 'set' and 'set'
+	
 
 
 .. todo::
