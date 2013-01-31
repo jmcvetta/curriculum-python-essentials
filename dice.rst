@@ -34,8 +34,8 @@ Code Stubs
 __init__.py
 -----------
 
-The ``__init__.py`` file will be mostly empty, containing only a docstring, a
-``VERSION`` variable, and a few import statements:
+The ``__init__.py`` file will be mostly empty, containing only a docstring and a
+``VERSION`` variable:
 
 .. literalinclude:: labs/dice/__init__.py
    :lines: 4-
