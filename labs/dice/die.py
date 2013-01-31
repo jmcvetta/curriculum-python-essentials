@@ -4,6 +4,11 @@
 from random import randint
 
 class Die(object):
-    '''A single die'''
-    pass
+    '''A single die with arbitrarily many sides.'''
+    
+    def roll(self):
+        pass
+    
+    def __add__(self, other):
+        pass
 
