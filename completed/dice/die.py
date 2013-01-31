@@ -30,15 +30,18 @@ class Die(object):
     def roll(self):
         return randint(1, self.sides)
 
+#    def __add__(self, other):
+#        if isinstance(other, Die):
+#            return self.roll() + other.roll()
+#        elif isinstance(other, int):
+#            return self.roll() + other
+#        else:
+#            msg =  'Can only add die instance to another die '
+#            msg += 'or an integer; but you tried a %s' % type(other)
+#            raise ValueError(msg)
+    
     def __add__(self, other):
-        if isinstance(other, Die):
-            return self.roll() + other.roll()
-        elif isinstance(other, int):
-            return self.roll() + other
-        else:
-            msg =  'Can only add die instance to another die '
-            msg += 'or an integer; but you tried a %s' % type(other)
-            raise ValueError(msg)
+        return other + self.roll()
 
 
 

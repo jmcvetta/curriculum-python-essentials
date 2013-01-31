@@ -17,9 +17,10 @@ class Die20(Die):
 def main():
     d6 = Die6()
     d20 = Die20()
-    print d6.roll()
-    print d6 + d20
-    print d6 + "foobar"
+    print d6.roll()     # Returns int between 1 and 6
+    print d6 + d20      # Returns int between 2 and 26
+    print d6 + 15       # Returns int between 16 and 21
+    print d6 + "foobar" # Throws exception
 
 if __name__ == '__main__':
     main()

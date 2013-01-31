@@ -69,11 +69,9 @@ class DieTest(unittest.TestCase):
         #
         # Add die to invalid types
         #
-        with self.assertRaises(ValueError):
+        with self.assertRaises(TypeError):
             d0 + "foobar"
-        with self.assertRaises(ValueError):
-            d0 + 2.5
-        with self.assertRaises(ValueError):
+        with self.assertRaises(TypeError):
             d0 + Die
 
 
