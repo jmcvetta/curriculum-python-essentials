@@ -11,6 +11,6 @@ Syntax
    packages.rst
    functions.rst
    scope.rst
+   loops.rst
    if-else.rst
-
-
+   iterators.rst
