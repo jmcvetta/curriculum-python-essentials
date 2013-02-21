@@ -14,3 +14,4 @@ Syntax
    loops.rst
    if-else.rst
    iterators.rst
+   generators.rst
