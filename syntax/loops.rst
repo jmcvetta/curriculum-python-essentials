@@ -36,47 +36,38 @@ Fibonacci series::
    
 
 
-# Using Range
->>> range(10)
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Using Range::
+
+   >>> range(10)
+   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 
-# Other range uses
->>> range(5, 10)
-[5, 6, 7, 8, 9]
->>> range(0, 10, 3)
-[0, 3, 6, 9]
+Other range uses::
+
+   >>> range(5, 10)
+   [5, 6, 7, 8, 9]
+   >>> range(0, 10, 3)
+   [0, 3, 6, 9]
 
 
 
-# Python has a lot of semantics
->>> a = ['Mary', 'had', 'a', 'little', 'lamb']
->>> for i in range(len(a)):
-...     print i, a[i]
-.....................
-0 Mary
-1 had
-2 a
-3 little
-4 lamb
+Enumerate::
+
+   >>> for i, v in enumerate(['tic', 'tac', 'toe']):
+   ...     print i, v
+   ..................
+   0 tic
+   1 tac
+   2 toe
+   
 
 
+Dictionaries::
 
-# Enumerate
->>> for i, v in enumerate(['tic', 'tac', 'toe']):
-...     print i, v
-..................
-0 tic
-1 tac
-2 toe
-
-
-
-# Dictionaries
->>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}
->>> for k, v in knights.iteritems():
-...     print k, v
-..................
-gallahad the pure
-robin the brave
+   >>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+   >>> for k, v in knights.iteritems():
+   ...     print k, v
+   ..................
+   gallahad the pure
+   robin the brave
