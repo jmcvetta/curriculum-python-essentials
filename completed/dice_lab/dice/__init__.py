@@ -13,6 +13,8 @@ Make a package of dice rolling utilities.
   called on both instances and the results added together.
 * When a die instance is added to an integer, the instance's roll()
   method is called, and the result is added to the integer.
+* If a die is added to something other than an integer or another die, the
+  operation should fail with an exception.
 '''
 
 VERSION = '0.1'
