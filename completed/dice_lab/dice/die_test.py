@@ -30,7 +30,7 @@ class DieTest(unittest.TestCase):
         self.assertRaises(TypeError, Die) # No arg to constructor
 
     def newDie(self):
-        sides = randint(2, 999999999)
+        sides = randint(2, 100) # Plausible number of sides - if too big, will miss many hard coded errors
         d0 = Die(sides=sides)
         return d0, sides
 

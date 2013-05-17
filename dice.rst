@@ -40,7 +40,7 @@ This script contains an example of using the classes.  If you can run the
 example, your dice classes are at least minimally working.
 
 .. literalinclude:: labs/dice_lab/roll.py
-   :lines: 4-
+   :lines: 5-
 
 dice/__init__.py
 ----------------
@@ -49,7 +49,7 @@ The ``__init__.py`` file will be mostly empty, containing only a docstring and a
 ``VERSION`` variable:
 
 .. literalinclude:: labs/dice_lab/dice/__init__.py
-   :lines: 4-
+   :lines: 3-
 
 dice/die.py
 -----------
